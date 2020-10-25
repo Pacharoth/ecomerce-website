@@ -22,6 +22,10 @@ body{
     background-image: url("../img/Cloths-bc740630f228713e4bb0de8a7bffce22.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    transition: all 0.3s ease 0.3s;
+}
+.background-img:hover{
+    box-shadow: var(--shadow-color);
 }
 /* Nav bar */
 .font-style{
@@ -115,11 +119,13 @@ body{
     padding-left: 1%;
     border-radius: 50px;
     border: none;
-    transition: all 0.3s ease 0.3s;
-    border: 1px solid rgb(102, 95, 95);
+    transition: all 0.1s ease 0.1s;
+    border: 1px solid gray;
 }
 .search-child:hover{
-    border:1px solid gray;
+    border:none;
+    box-shadow: var(--shadow-color);
+
 }
 
 /* card-otherstuff */
@@ -176,6 +182,40 @@ body{
 .delivery-img{
     width:100px;
 }
+/* sidebar */
+.container-content{
+    display: flex;
+}
+.content-link{
+  
+    margin: 2%;
+}
+
+.content-link a{
+    text-decoration: none;
+    color: gray;
+}
+.content-link a:hover{
+    color: black;
+    
+}
+.content-link li{
+    opacity: 0.5;
+    padding: 10px;
+}
+.content-link li:hover{
+    opacity: 1;
+}
+.content-link ul{
+    list-style: none;
+}
+.content-link img{
+    
+    width: 40px;
+    vertical-align:middle;
+}
+/* content web */
+
 
 /* responsive */
 @media screen and (max-width:768px){
