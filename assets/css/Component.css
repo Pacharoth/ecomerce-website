@@ -1,0 +1,234 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+:root{
+    --logo-color: rgb(20, 196, 20); 
+    --shadow-color: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+body::-webkit-scrollbar{
+    display: none;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow: auto;
+    cursor: pointer;
+}
+.background-img{
+    background-image: url("../img/Cloths-bc740630f228713e4bb0de8a7bffce22.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+/* Nav bar */
+.font-style{
+    color:var(--logo-color) ;
+}
+.nav-link{
+    list-style: none;
+}
+.nav-link li{
+    display: inline-block;
+}
+
+.brand-logo{
+    margin-right: auto;
+}
+.brand-logo a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.join-link{
+    color: black;
+    border: 1px solid gray;
+    box-shadow:var(--shadow-color);
+}
+.join-link:hover{
+    color: white;
+    background-color: rgb(122, 115, 115);
+}
+.nav-link li a{
+
+    padding: 10px 28px 10px 28px;
+    transition: all 0.3s ease 0.3s;
+    text-decoration: none;
+}
+.Help{
+    color: black;
+}
+.Help:hover{
+    color:gray;
+}
+.contain{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top:3%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.icon-help{
+    width: 20px;
+    vertical-align: middle;
+}
+
+/* shop image */
+.shop-image{
+    margin-top: 2%;
+    
+    height: 50%;
+    /* background-position: center; */
+    text-align: center;
+    padding: 5%;
+}
+.shop-text{
+    padding: 2%;
+    font-weight: bold;
+    margin: auto;
+    font-size: 20px;
+    
+    transition: all 0.3s ease 0.3s;
+}
+.shop-text:hover{
+    color: gray;
+}
+.shop-para{
+    color: gray;
+    transition: all 0.3s ease 0.3s;
+}
+.shop-para:hover{
+    color: black;
+}
+.search-product{
+    padding: 5%;
+}
+.search-child{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 50%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    border-radius: 50px;
+    border: none;
+    transition: all 0.3s ease 0.3s;
+    border: 1px solid rgb(102, 95, 95);
+}
+.search-child:hover{
+    border:1px solid gray;
+}
+
+/* card-otherstuff */
+.card-content{
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.card-body{
+    margin: 3%;
+    display: flex;
+   
+    align-items: center;
+    padding: 25px 20px 25px 20px;
+ 
+    justify-content: flex-end;
+    width: 24%;
+    /* border: 1px solid black; */
+}
+.card-text{
+    margin-right: auto;
+}
+.card-body:hover{
+    box-shadow: var(--shadow-color);
+}
+.title-card{
+    color: white;
+    padding-bottom:10px ;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+.description-card{
+    color: white;
+    padding-bottom: 10px;
+    font-size: 15px;
+    margin-bottom: 30%;
+}
+
+.card-text a{
+    background-color: white;
+    padding: 12px 10px 12px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    box-shadow: var(--shadow-color);
+    transition: all 0.3s ease 0.3s;
+    
+}
+.card-text a:hover{
+    background-color: gray;
+    color: white;
+}
+.delivery-img{
+    width:100px;
+}
+
+/* responsive */
+@media screen and (max-width:768px){
+    .brand-logo a{
+        font-size: 16px;
+    }
+    .shop-text{
+        font-size: 16px;
+    }
+    .shop-para{
+        font-size: 14px;
+    }
+    .join-link{
+        font-size: 14px;
+    }
+    .Help{
+        font-size: 14px;
+    }
+    .card-content{
+        justify-content: center;
+    }
+    .card-body{
+        width: 80%;
+    }
+ 
+}
+@media screen and (max-width:687px){
+    /* navbar */
+    .brand-logo a{
+        font-size: 12px;
+    }
+    .nav-link li a{
+        padding: 4px 8px 4px 8px;
+        text-decoration: none;
+    }
+    .icon-help{
+        width:15px ;
+    }
+    .join-link{
+        font-size: 10px;
+    }
+    .Help{
+        font-size: 10px;
+    }
+    /* shop-image */
+    .shop-text{
+        font-size: 12px;
+    }
+    .shop-para{
+        font-size: 10px;
+    }
+    .search-child{
+        font-size: 10px;
+    }
+}
+
