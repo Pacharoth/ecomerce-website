@@ -190,12 +190,15 @@ body{
     width: 100%;
 }
 .content-link{
-    margin: 0 2% 0 2%;
+    width: 16%;
+    padding-top: 2px;
+
 }
 
 .content-link a{
     text-decoration: none;
     color: gray;
+    font-weight: bold;
 }
 .content-link a:hover{
     color: black;
@@ -220,7 +223,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     background-color: var(--background-web);
-    width: 83%;
+    width: 84%;
 }
 
 /* responsive */
@@ -234,7 +237,41 @@ body{
         width: 22%;
     }
 }
+@media screen and (max-width:900px){
+    .content-web{
+        width: 75%;
+    }
+    .content-link{
+        width: 25%;
+    }
+    .content-link a{
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .brand-logo a{
+        font-size: 16px;
+    }
+    .shop-text{
+        font-size: 16px;
+    }
+    .shop-para{
+        font-size: 14px;
+    }
+    .join-link{
+        font-size: 14px;
+    }
+    .Help{
+        font-size: 14px;
+    }
+    .card-content{
+        justify-content: center;
+    }
+    .card-body{
+        width: 90%;
+    }
+}
 @media screen and (max-width:768px){
+    
     .brand-logo a{
         font-size: 16px;
     }
@@ -256,10 +293,17 @@ body{
     .card-body{
         width: 80%;
     }
+    
  
 }
 @media screen and (max-width:687px){
+    .content-web{
+        width: 100%;
+    }
     /* navbar */
+    .content-link{
+        width: 100%;
+    }
     .brand-logo a{
         font-size: 12px;
     }
