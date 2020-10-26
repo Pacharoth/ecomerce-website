@@ -134,16 +134,17 @@ body{
     display: flex;
     padding: 10px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .card-body{
-    margin: 3%;
+    margin: 2%;
     display: flex;
    
     align-items: center;
     padding: 25px 20px 25px 20px;
  
     justify-content: flex-end;
-    width: 24%;
+    width: 26%;
     /* border: 1px solid black; */
 }
 .card-text{
@@ -204,6 +205,10 @@ body{
     color: black;
     
 }
+.content-link .active{
+    color: black;
+    opacity: 1;
+}
 .content-link li{
     opacity: 0.5;
     padding: 10px;
@@ -228,13 +233,50 @@ body{
 
 /* responsive */
 @media screen and (max-width:1246px){
+    /* .card-body{
+        width: 26%;
+    } */
+}
+@media screen and (max-width:1200px){
+    .card-content{
+        justify-content: center;
+    }
     .card-body{
-        width: 23%;
+        margin-left: 2%;
+        width: 25%;
     }
 }
-@media screen and (max-width:1100px){
+@media screen and (max-width:900px){
+    .content-web{
+        width: 75%;
+    }
+    .content-link{
+        width: 25%;
+    }
+    .content-link a{
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .brand-logo a{
+        font-size: 16px;
+    }
+    .shop-text{
+        font-size: 16px;
+    }
+    .shop-para{
+        font-size: 14px;
+    }
+    .join-link{
+        font-size: 14px;
+    }
+    .Help{
+        font-size: 14px;
+    }
+    .card-content{
+        justify-content: center;
+    }
     .card-body{
-        width: 22%;
+        width: 90%;
     }
 }
 @media screen and (max-width:900px){
