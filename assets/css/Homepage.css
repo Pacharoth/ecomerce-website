@@ -1,1 +1,110 @@
-@import 'Component.css'
+.card-shirt{
+    background-color: white;
+    padding: 5px;
+    width: 28%;
+    margin:2%;
+    box-shadow: var(--shadow-color);
+}
+.card-shirt button{
+    background-color: rgb(255, 196, 0);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    margin-top: 1%;
+    margin-left:82%;
+}
+.card-shirt button:hover{
+    color: gray;
+    box-shadow: var(--shadow-color);
+}
+
+.text-shirt{
+    font-size: 13px;
+    padding: 10px 10px 20px 10px;
+}
+.clothes-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-shirt img{
+    width: 200px;
+}
+
+.cart-para{
+    margin-right: auto;
+}
+.cart-para p{
+    padding: 10px;
+}
+.cart-para .discount{
+    color: red;
+    text-decoration: line-through;
+}
+.cart-para .after-discount{
+    color: green;
+
+}
+.cart{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 10px 0 0;
+}
+.cart a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    box-shadow: var(--shadow-color);
+    padding: 10px 12px 10px 12px;
+    font-weight: bold;
+    font-size: 13px;
+    transition: all 0.3s ease 0.3s;
+
+}
+.cart a:hover{
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+.cart-para{
+    font-size: 15px;
+    padding-top: 10px;
+}
+.cart img{
+    width: 20px;
+    vertical-align: middle;
+}
+.load-more {
+    display: block;
+    margin: auto;
+    margin-bottom: 2%;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+    transition: all 0.3s ease 0.3s;
+    background-color: rgb(78, 221, 78);
+}
+.load-more:hover{
+    box-shadow: var(--shadow-color);
+    background-color: white;
+    border:1px solid rgb(78, 221, 78);
+    color: rgb(78, 221, 78);
+}
+
+@media screen and (max-width:900px){
+    .card-shirt{
+        width: 40%;
+        margin-left: 5%;
+    }
+    .card-shirt button{
+        margin-left: 80%;
+    }
+}
+@media screen and (max-width:687px){
+    .card-shirt{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
