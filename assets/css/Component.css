@@ -134,6 +134,7 @@ body{
     display: flex;
     padding: 10px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .card-body{
     margin: 2%;
@@ -243,6 +244,39 @@ body{
     .card-body{
         margin-left: 2%;
         width: 25%;
+    }
+}
+@media screen and (max-width:900px){
+    .content-web{
+        width: 75%;
+    }
+    .content-link{
+        width: 25%;
+    }
+    .content-link a{
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .brand-logo a{
+        font-size: 16px;
+    }
+    .shop-text{
+        font-size: 16px;
+    }
+    .shop-para{
+        font-size: 14px;
+    }
+    .join-link{
+        font-size: 14px;
+    }
+    .Help{
+        font-size: 14px;
+    }
+    .card-content{
+        justify-content: center;
+    }
+    .card-body{
+        width: 90%;
     }
 }
 @media screen and (max-width:900px){
