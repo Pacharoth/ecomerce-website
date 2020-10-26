@@ -278,6 +278,39 @@ body{
         width: 90%;
     }
 }
+@media screen and (max-width:900px){
+    .content-web{
+        width: 75%;
+    }
+    .content-link{
+        width: 25%;
+    }
+    .content-link a{
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .brand-logo a{
+        font-size: 16px;
+    }
+    .shop-text{
+        font-size: 16px;
+    }
+    .shop-para{
+        font-size: 14px;
+    }
+    .join-link{
+        font-size: 14px;
+    }
+    .Help{
+        font-size: 14px;
+    }
+    .card-content{
+        justify-content: center;
+    }
+    .card-body{
+        width: 90%;
+    }
+}
 @media screen and (max-width:768px){
     
     .brand-logo a{
