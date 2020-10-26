@@ -132,7 +132,7 @@ body{
 /* card-otherstuff */
 .card-content{
     display: flex;
-    padding: 10px;
+    padding: 3% 2% 3% 2%;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -141,17 +141,14 @@ body{
     display: flex;
    
     align-items: center;
-    padding: 25px 20px 25px 20px;
- 
+    padding: 30px 20px 30px 20px;
+    box-shadow: var(--shadow-color);
     justify-content: flex-end;
     width: 26%;
     /* border: 1px solid black; */
 }
 .card-text{
     margin-right: auto;
-}
-.card-body:hover{
-    box-shadow: var(--shadow-color);
 }
 .title-card{
     color: white;
@@ -191,15 +188,15 @@ body{
     width: 100%;
 }
 .content-link{
-    width: 16%;
-    padding-top: 2px;
-
+    width: 25%;
+    padding-top: 2%;
 }
 
 .content-link a{
     text-decoration: none;
     color: gray;
     font-weight: bold;
+    
 }
 .content-link a:hover{
     color: black;
@@ -211,12 +208,15 @@ body{
 }
 .content-link li{
     opacity: 0.5;
-    padding: 10px;
+    padding: 5%;
+    margin-left: 10%;
+    transition: all 0.3s ease 0.3s;
 }
 .content-link li:hover{
     opacity: 1;
 }
 .content-link ul{
+
     list-style: none;
 }
 .content-link img{
@@ -227,8 +227,9 @@ body{
 .content-web{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     background-color: var(--background-web);
-    width: 84%;
+    width: 75%;
 }
 
 /* responsive */
