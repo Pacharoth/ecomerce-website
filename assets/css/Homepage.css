@@ -1,7 +1,7 @@
 .card-shirt{
     background-color: white;
     padding: 5px;
-    width: 28%;
+    width: 27%;
     margin:2%;
     box-shadow: var(--shadow-color);
 }
@@ -11,7 +11,7 @@
     border-radius: 5px;
     padding: 5px 10px 5px 10px;
     margin-top: 1%;
-    margin-left:82%;
+    margin-left:80%;
 }
 .card-shirt button:hover{
     color: gray;
@@ -22,33 +22,38 @@
     font-size: 13px;
     padding: 10px 10px 20px 10px;
 }
+.text-shirt span{
+    margin-top: 10px;
+
+}
 .clothes-center{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .card-shirt img{
-    width: 200px;
+    width: 80%;
 }
 
 .cart-para{
     margin-right: auto;
 }
 .cart-para p{
-    padding: 10px;
+    padding: 5px 0 0 10px;
 }
 .cart-para .discount{
     color: red;
     text-decoration: line-through;
 }
-.cart-para .after-discount{
+.text-img .after-discount{
     color: green;
+    font-size: 15px;
 
 }
 .cart{
-    display: flex;
+    /* display: flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items: center; */
     padding: 0 10px 0 0;
 }
 .cart a{
@@ -61,6 +66,23 @@
     font-size: 13px;
     transition: all 0.3s ease 0.3s;
 
+}
+.text-img {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.text-img p{
+    margin-right: auto;
+    margin-left: 3%;
+    
+}
+.text-img a{
+    margin-bottom: 2%;
+}
+.card-shirt .clothes{
+    width: 70%;
+    margin-bottom: 10%;
 }
 .cart a:hover{
     background-color: gray;
@@ -105,6 +127,9 @@
 @media screen and (max-width:687px){
     .card-shirt{
         width: 80%;
-        margin-left: 10%;
+        margin-top: 10%;
+    }
+    .load-more{
+        margin-top: 5%;
     }
 }
