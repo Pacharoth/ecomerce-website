@@ -1,0 +1,289 @@
+/* block content-web */
+.content-web{
+    overflow: auto;
+}
+.content-shirt{
+    display: flex;
+    cursor: pointer;
+    margin-top: 4%;
+    padding: 4% 0 4% 0;
+    width:90%;
+    background-color: white;
+    box-shadow: var(--shadow-color);
+}
+.shirt-image{
+    border-right: 2px solid rgb(231, 228, 228);
+ 
+}
+.shirt-image>button{
+    margin-left: 80%;
+    padding: 2% 4% 2% 4%;
+    border-radius: 10px;
+    transition: all 0.3s ease 0.3s;
+    border: none;
+    transition: all 0.3s ease 0.3s;
+    background-color: rgb(255, 166, 0);
+}
+.shirt-image>button:hover{
+    background-color: rgb(233, 149, 40);
+    color:white;
+}
+
+.img-clothes{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.img-clothes >#img-view{
+    width: 50%;
+}
+.shirt-image{
+    width: 50%;
+    display: block;
+}
+.branch-shirt{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.branch-shirt >img{
+    width: 20%;
+    margin-left:10%;
+    border: 1px solid rgb(192, 191, 191);
+    margin-bottom: 2%;
+
+}
+.text-content{
+    cursor: pointer;
+    width: 50%;
+    padding:0 3% 0 3% ;
+}
+
+.text-content>span{
+    margin-top: 10%;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+span>#span{
+    margin-top: 20%;
+}
+span>#span1{
+    margin-bottom: 25%;
+}
+.header-title{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.header-title>span{
+    color: rgb(14, 175, 14);
+}
+.header-title>.price{
+    margin-right: 10%;
+    text-decoration: line-through;
+    color: rgb(245, 42, 42);
+}
+.header-title>span{
+    margin-right: 4%;
+}
+.header-title>h2{
+    margin-right: auto;
+}
+.text-content a>img{
+    width: 5%;
+    vertical-align: middle;
+}
+.text-content a{
+    font-weight: bolder;
+    padding: 10px;
+    border: 1px solid rgb(168, 165, 165);
+    transition: all 0.3s ease 0.3s;
+  
+}
+.text-content a:hover{
+    box-shadow: var(--shadow-color);
+    background-color: gray;
+    color: white;
+}
+
+.button-shirt{
+    margin-top: 8%;
+}
+.button-shirt>button{
+    border: none;
+    margin-right: 4%;
+    padding: 2% 3% 2% 3%;
+    border-radius: 10px;
+    background-color: lightgray;
+    transition: all 0.3s ease 0.3s;
+
+}
+.button-shirt>button:hover{
+    background-color: gray;
+    color: white;
+    box-shadow: var(--shadow-color);
+}
+.comment-content{
+    width: 90%;
+    margin-top: 5%;
+}
+.comment-content>h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+.comment-content>.card-comment{
+    
+    background-color: white;    
+    padding: 4%;
+    margin-top: 1%;
+    box-shadow: var(--shadow-color);
+}
+.card-comment>.avatar{
+    display: flex;
+    align-items: center;
+
+}
+.avatar>img{
+    width: 8%;
+    padding-right:2% ;
+}
+
+.card-profile>a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    color: rgb(0, 130, 252);
+}
+.card-profile>span{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size:14px;
+    color: gray;
+    margin-top: 3%;
+}
+.text-comment{
+    margin-top: 5%;
+}
+.text-comment>span>p{
+    font-size: 15px;
+    padding-top:3px;
+    font-weight: 500;
+}
+.review-form{
+    width: 90%;
+    margin-top: 2%;
+    position: relative;
+}
+fieldset{
+    background-color: white;
+    box-shadow: var(--shadow-color);
+}
+fieldset>textarea{
+    width: 96%;
+    height: 300px;
+    padding: 2%;
+    border:none;
+}
+.group-button{
+    padding-top: 2%;
+    padding-right: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.reply>img{
+    /* background-color: white; */
+    color: white;
+    margin-right:5% ;
+    width: 25%;
+    vertical-align: middle;
+}
+.reply{
+    width: 10%;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 5px 10px 5px;
+    border: 1px solid gray;
+    background-color: rgb(12, 167, 12);
+    color: white;
+    margin-right: 2%;
+    transition: all 0.3s ease 0.3s;
+
+}
+.reply:hover{
+    background-color: green;
+    box-shadow: var(--shadow-color);
+}
+
+.cancel{
+    width: 10%;
+    font-size: 16px;
+    font-weight: bold;
+    padding:10px 5px 10px 5px;
+    border: 1px solid gray;
+    background-color: white;
+    transition: all 0.3s ease 0.3s;
+}
+.cancel:hover{
+    color: white;
+    background-color: gray;
+    box-shadow: var(--shadow-color);
+}
+.group-button{
+    margin-bottom: 3%;
+}
+.cancel>img{
+    width: 22%;
+    margin-right:5% ;
+    /* padding-right: 5%; */
+    vertical-align: middle;
+}
+@media screen and (max-width:900px){
+    .reply{
+        width: 15%;
+    }
+    .cancel{
+        width: 15%;
+    }
+    .header-title>h2{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:500px){
+    .content-shirt{
+        flex-wrap: wrap;
+        
+        border-bottom: 1px solid gray;
+    }
+    .shirt-image{
+        width: 100%;
+        border-right: none;
+        margin-bottom: 2%;
+    }
+    .text-content{
+        width: 100%;
+    }
+    .header-title{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .header-title>h2{
+        margin-right: auto;
+    }
+    span > #span1{
+        margin-bottom: 10%;
+    }
+    span >#span{
+        margin-top: 10%;
+    }
+    .reply{
+        width: 25%;
+    }
+    .cancel{
+        width: 25%;
+    }
+}
